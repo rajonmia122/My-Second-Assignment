@@ -1,0 +1,314 @@
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* universal css properties */
+/* .container */
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.primary_bg_color{
+    background-color: orange;
+   }
+.secondary_bg_color{
+
+    background-color: black;
+}
+.third_bg_color{
+
+}
+/* .font_color */
+.font_color_1{
+    color: orange;
+}
+.font_color_2{
+    color: skyblue;
+}
+
+
+
+
+
+
+
+
+/* btn */
+.btn_1{
+color: #FFFF;
+border-radius: 12px;
+padding: 10px 60px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+}
+.btn_1:Hover{
+    background-color: aqua;
+}
+.hide{
+    display: none;
+}
+/* Header styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+   }
+.Logo_bar{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    width: 62px;
+    height: 62px;
+    margin-right: 15px;
+ }
+.logo h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.Menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    text-align: center;
+}
+.Menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   }
+.Menu ul li{
+    list-style: none;
+    
+}
+.Menu_1 a{
+    color: orange;
+}
+
+.Menu_2 a{
+    color: rgb(43, 174, 226);
+}
+.Menu_3 a{
+    color: #05D4DF;
+}
+.Menu_4 a{
+    color: #5D58EF;
+}
+
+
+/* .hero_section */
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero h1{
+    font-size: 56px;
+    font-weight: bold;
+
+}
+
+.btn_2{
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 47px;
+    margin-top: 24px;
+    margin-bottom: 122px;
+}
+.hero-kids{
+    width: 470px;
+}
+.hero-kids img{
+    width: 100%;
+}
+
+/* Curriculam_section */
+.curriculam_section {
+    background-image: url('assets/bg.png');
+
+}
+
+
+.curriculam_section h2{
+    font-size: 46px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.Card_box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 28.29px;
+    padding:0;
+    margin:80px 0;
+
+}
+/* card paragraph text */
+.card_text{
+    color: #808080;
+    font-size: 15px;
+}
+
+.card_1{
+    background-color:#DEF5FF;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(108, 165, 182, 0.3) 100%);
+    text-align: center;
+    padding: 50px;
+    
+
+}
+
+.card_2{
+    background-color: #FFF4DC;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(199, 181, 21, 0.3) 100%);
+    text-align: center;
+    padding: 50px;
+   
+}
+.card_3{
+    background-color: #F2E8FF;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(80, 25, 153, 0.3) 100%);
+    text-align: center;
+    padding: 50px;
+}
+
+.read_btn_1{
+    color:#64C8FF ;
+    margin-top: 33px;
+    margin-bottom: 53px;
+}
+.read_btn_2{
+    color:#F0AA00 ;
+    margin-top: 33px;
+    margin-bottom: 53px;
+}
+.read_btn_3{
+    color:#8700FF ;
+    margin-top: 33px;
+    margin-bottom: 53px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.navigation i{
+    font-size: 20px;
+    background-color: #FEA301;
+    padding: 20px 22px;
+    border-radius: 48%;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* story_section */
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness media-queries of Navbar */
+@media screen and (Max-width:576px) {
+
+    .container{
+        max-width:95%;
+        margin: 0 auto;
+
+    }
+    .Menu {
+            display: none;
+        }
+    
+        .btn_1 {
+            display: none;
+        }
+    
+        .Logo_bar h3 {
+            display: none;
+        }
+    
+        .hamburger {
+            display: inline;
+        }
+    
+        nav {
+            border-bottom: 1px solid orange;
+        }
+        /* .hero_section */
+        .hero_section{
+            text-align: center;
+
+        }
+        .hero h1{
+            margin-top: 20px;
+            font-size: 32px;
+           
+        
+        }
+        
+        .btn_2{
+
+            font-size: 16px;
+            padding: 10px 22px;
+        }
+
+
+
+
+
+
+
+    .hero_section{
+        flex-direction: column-reverse;
+    }
+    .hero-kids{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-kids img{
+        width: 80%;
+    }
+/* .curriculam_section */
+.curriculam_section{
+    flex-direction: column;
+    
+}
+.Card_box{
+    flex-direction: column;
+}
+.card_text{
+    
+    font-size: 10px;
+
+}
+.curriculam_section h2{
+    font-size: 26px;
+
+
+
+
+}
+
