@@ -350,7 +350,8 @@ nav{
 .footer_section{
     display: flex;
     justify-content: space-between;
-    gap: 140px;
+    gap: 20px;
+    color: #fff;
 
 }
 .name{
@@ -358,15 +359,19 @@ nav{
    align-items: center;
     gap: 10px;
 }
-.head_section{
-    width: 50%;
+.head_section p{
+    margin-top: 20px;
 }
-ul li{
+
+.head_section{
+    width: 40%;
+}
+.about ul li{
     list-style: none;
 }
 footer{
     background-color: #01ACFD;
-    padding: 50px 0;
+    padding: 90px 0;
 }
 
 
@@ -472,6 +477,11 @@ footer{
     font-size: 12px;
     padding: 6px 12px;
 
+
+}
+
+.footer_section{
+    flex-direction: column;
 
 }
 
