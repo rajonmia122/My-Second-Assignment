@@ -104,6 +104,12 @@ nav{
     color: #5D58EF;
 }
 
+/* marquee-container */
+.marquee-container{
+    font-weight: bold;
+    color: #5D58EF;
+    font-size: 25px;
+}
 
 /* .hero_section */
 .hero_section{
