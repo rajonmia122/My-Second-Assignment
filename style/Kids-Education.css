@@ -347,6 +347,29 @@ nav{
 }
 
 
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+
+}
+.name{
+    display: flex;
+   align-items: center;
+    gap: 10px;
+}
+.head_section{
+    width: 50%;
+}
+ul li{
+    list-style: none;
+}
+footer{
+    background-color: #01ACFD;
+    padding: 50px 0;
+}
+
+
 
 
 
