@@ -125,7 +125,7 @@ nav{
     border-radius: 12px;
     padding: 10px 47px;
     margin-top: 24px;
-    margin-bottom: 122px;
+
 }
 .hero-kids{
     width: 470px;
@@ -136,7 +136,9 @@ nav{
 
 /* Curriculam_section */
 .curriculam_section {
-    background-image: url('assets/bg.png');
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -166,6 +168,8 @@ nav{
 .card_1{
     background-color:#DEF5FF;
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(108, 165, 182, 0.3) 100%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
     text-align: center;
     padding: 50px;
     
@@ -175,14 +179,18 @@ nav{
 .card_2{
     background-color: #FFF4DC;
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(199, 181, 21, 0.3) 100%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 13px;
     padding: 50px;
    
 }
 .card_3{
     background-color: #F2E8FF;
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(80, 25, 153, 0.3) 100%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 13px;
     padding: 50px;
 }
 
@@ -221,7 +229,11 @@ nav{
 /* story_section */
 
 
-
+.story{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .story_box{
     display: flex;
@@ -231,6 +243,8 @@ nav{
 
 .big_card{
     width: 45%;
+    
+    
 }
 
 .small_card{
@@ -238,14 +252,101 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+  
 }
 
 .story-btn{
     margin-top: -20px;
-}
-.story h2{
+    margin-left: 20px;
     
+  
 }
+.story-btn button{
+    font-size: 15px;
+    color: #fff;
+    border-radius: 47px;
+    padding: 10px 20px;
+    border: none;
+
+
+}
+
+.story-btn button:hover{
+    background-color: grey;
+}
+
+
+
+
+
+.story h2{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px auto;
+   }
+.story-btn_bg_1{
+    background-color: #3CD8E8;
+    }
+.story-btn_bg_2{
+    background-color: #95B226;
+   }
+   
+.story-btn_bg_3{
+    background-color: #5D58F0;
+         }
+
+.story-content h4{
+    margin: 40px 0;
+}
+.big_card p{
+    font-size: 16px;
+
+}
+.other_card p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+
+   
+}
+.big_card img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+
+}
+
+.other_card img{
+    border-radius: 16px 16px 0 0;
+    
+    width: 100%;
+
+}
+.story-content{
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 16px 16px;
+}
+
+.view_all{
+    text-align: center;
+    padding: 30px 0;
+
+}
+.view_all button{
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 12px;
+    padding: 10px 35px;
+    border: none;
+}
+.view_all button:hover{
+    background-color: skyblue;
+}
+
+
 
 
 
@@ -303,13 +404,9 @@ nav{
         }
 
 
-
-
-
-
-
     .hero_section{
         flex-direction: column-reverse;
+        padding: 20px 0;
     }
     .hero-kids{
         width: 100%;
@@ -333,10 +430,36 @@ nav{
 }
 .curriculam_section h2{
     font-size: 26px;
+    margin-top: 10px;
 
 
 
 
 }
+
+.big_card{
+    display: none;
+}
+
+.small_card{
+    width: 100%;
+}
+
+.story-btn button{
+    font-size: 12px;
+    padding: 6px 12px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 }
